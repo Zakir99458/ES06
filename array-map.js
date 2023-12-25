@@ -3,5 +3,11 @@ let result = [];
 let mulResult = [];
 const multiplyNumbers = (number) => number * 2;
 
-mulResult = numbers.map(multiplyNumbers);
+// mulResult = numbers.map(multiplyNumbers);
+// console.log(mulResult);
+
+// map- alternative
+
+
+mulResult = numbers.map((number) => number * 2);
 console.log(mulResult);
