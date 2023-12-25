@@ -14,3 +14,9 @@ const company = {
 const {framework} = company.web;
 console.log(framework);
 console.log(company.name);
+
+
+// Destructuring array
+const [x,y] = [45,60];
+console.log(x, y);
+
